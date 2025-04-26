@@ -1,0 +1,49 @@
+/* src/components/EntryList.css */
+
+.entry-title {
+    text-align: center;
+    color: #5a189a;
+    margin-bottom: 2rem;
+  }
+  
+  .entry {
+    max-width: 600px;
+    margin: 1.5rem auto;
+    padding: 1.25rem;
+    background: #f9f7fd;
+    border-left: 5px solid #5a189a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(90, 24, 154, 0.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .entry:hover {
+    transform: translateY(-5px);
+  }
+  
+  .entry blockquote {
+    font-style: italic;
+    color: #6c63ff;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .entry p {
+    margin: 0.5rem 0;
+    color: #333;
+    line-height: 1.4;
+  }
+  
+  .entry small {
+    display: block;
+    text-align: right;
+    color: #888;
+    margin-top: 0.5rem;
+  }
+  
+  .no-entries {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+  }
+  
